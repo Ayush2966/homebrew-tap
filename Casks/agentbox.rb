@@ -6,25 +6,25 @@ cask "agentbox" do
     end
   end
 
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     on_arm do
-      sha256 "c12aace9c9d906ee8330c241d42a507f2bddc3c1b6d34af68e5f8ac547dc0134"
+      sha256 "a0f27cda76b636a74b16ee574023a200e7a7aefe1bbb65d68b8dfbe3a570f664"
       url "https://github.com/Ayush2966/Agent-Box/releases/download/v#{version}/agentbox_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "2b40f29fbdf9a2e143e64713d6f1a9262c10d3f9c8a94782a7d94f8db681a8e8"
+      sha256 "0b90d90449fd5c4a49b812c2fa8df000658e19596fe8f933d95824029a216be4"
       url "https://github.com/Ayush2966/Agent-Box/releases/download/v#{version}/agentbox_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "68a8ca6e9cf649ff37ecd4e957a44d4f97185351f47198675fee1da60fc2414f"
+      sha256 "7d2307c967fa1831dfee1162d1589aaf027965622caaca71e847a6a16ce69586"
       url "https://github.com/Ayush2966/Agent-Box/releases/download/v#{version}/agentbox_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "0cb6060419fc85118d596d64a03d7bc8ffcfe70a7b20dc670bc4939e0f198795"
+      sha256 "27f45a5f1315e57af741e733a6608641ac9205dbf19229ecb1f1f126a52a6995"
       url "https://github.com/Ayush2966/Agent-Box/releases/download/v#{version}/agentbox_#{version}_linux_amd64.tar.gz"
     end
   end
