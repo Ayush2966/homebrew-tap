@@ -1,7 +1,7 @@
 # Written by the release workflow (desktop/publish-cask.sh). DO NOT EDIT.
 cask "agentbox-desktop" do
-  version "0.1.3"
-  sha256 "01df2a72048acdb961a296db25d4da04a2804b48c3253052e06af98bb7ece946"
+  version "0.1.4"
+  sha256 "8bd965791a15253e64a906694b7c22e54a17953f90a52db68c49e04e582e3447"
 
   url "https://github.com/Ayush2966/Agent-Box/releases/download/v#{version}/Agentbox-#{version}-macos-universal.zip"
   name "Agentbox"
